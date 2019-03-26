@@ -6,7 +6,7 @@ Welcome to the front-end development module, where we learn to assemble web inte
 
 We'll divide the module into tasks, with introductory materials from external sources first. Then, some commonly applied techniques are introduced to address the frequent difficulties other developers encounter. Lastly, you'll complete a mock interface for a website of your choice (this project will go into your portfolio).
 
-### Before We Begin: What's Makes a Good Interface?
+### Before We Begin: What Makes a Good Interface?
 
 In short, *it varies* depending on your need. Web interfaces present specific (and ever-elusive) *vibes* that guide a visitor's perception of the brand. A significant amount of this process hinges upon UI and UX design (which take up a lot of time/consideration and will be the focus of later selective topics).
 
