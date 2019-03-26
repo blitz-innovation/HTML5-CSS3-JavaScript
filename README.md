@@ -110,6 +110,8 @@ It's ok to modify and adapt your strategy throughout the process, as it's unpred
 - [Actual Coding 3: Main Content](https://vimeo.com/318285713)
 - [Actual Coding 4: Carousal, JS](https://vimeo.com/318291267)
 
+You can find completed code for the demo in the 'DemoClone' folder
+
 ### Project: Clone an Interface
 
 Now it's your turn. This project is quite major and can be included in your professional portfolio as a showcase. *Don't forget to submit a proposal first for approval and peer feedback*.

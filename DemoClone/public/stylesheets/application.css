@@ -1,0 +1,253 @@
+*{
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #1DA1F2 !important;
+}
+html, body{
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  overflow-x: hidden;
+}
+
+.header{
+  height: inherit;
+  background-color: #232f3e;
+}
+.header-row-1{
+  height: 50px;
+  font-size: 0px;
+}
+.header-row-2{
+  height: 40px;
+  font-size: 0px;
+}
+
+.header-row-left,
+.header-row-middle,
+.header-row-right{
+  vertical-align: top;
+  display: inline-block;
+  height: 100%;
+}
+.header-row-left{
+  width: 15vw;
+}
+.header-row-middle{
+  width: 55vw;
+}
+.header-row-right{
+  width: 30vw;
+}
+
+.category-button{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+.category-button:hover{
+  border: 1px solid white;
+}
+.header-icon{
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+/* search group */
+.search-container{
+  height: 35px;
+  margin-top: 12px;
+  border-radius: 3px;
+  overflow: hidden;
+  /* border: 1px solid #fa8700; */
+}
+.search-dropdown-button{
+  vertical-align: top;
+  height: 100%;
+  width: 40px;
+  text-align: center;
+  color: #666666;
+  border: none;
+  border-right: 1px solid grey;
+}
+.search-dropdown-button:hover{
+  background-color: #cccccc;
+}
+.search-input-box{
+  vertical-align: top;
+  display: inline-block;
+  width: calc(100% - 90px);
+  height: 100%;
+}
+.search-input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+.search-button{
+  display: inline-block;
+  height: 35px;
+  width: 50px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #fa8700;
+}
+
+/* header first row right */
+.header-row-right{
+  text-align: center;
+}
+.header-row-right-image-container{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+/* header row second */
+.header-row-functions{
+  height: 100%;
+}
+.header-row-function-item{
+  display: inline-block;
+  margin-right: 17px;
+  margin-top: 20px;
+  width: inherit;
+  vertical-align: bottom;
+}
+.header-row-function-item-text{
+  color: #e7e7e7;
+  font-size: 12.5px;
+}
+
+
+/* main section */
+.main-section{
+  position: relative;
+  height: calc(100vh - 120px);
+}
+.main-section-content{
+  top: calc(100vh - 120px - 50vh);
+  left: 0px;
+  position: absolute;
+  height: 50vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 0px;
+}
+.main-section-content-inner-container{
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+}
+.main-section-content-column{
+  display: inline-block;
+  width: calc((100vw - 5*20px)/4);
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50vh;
+  background-color: white;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+}
+.main-section-background-image-container{
+  width: 100vw;
+  position: absolute;
+  left: 0vw;
+  top: 0px;
+  transition: 700ms left ease-in-out;
+}
+.main-section-background-image-left-container{
+  width: 100vw;
+  position: absolute;
+  left: -100vw;
+  top: 0px;
+  transition: 700ms left ease-in-out;
+}
+.main-section-background-image-right-container{
+  width: 100vw;
+  position: absolute;
+  left: 100vw;
+  top: 0px;
+  transition: 700ms left ease-in-out;
+}
+.main-section-background-image{
+  height: 100%;
+  width: 100%;
+}
+.main-section-background-blending-container{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.main-section-background-blending{
+  height: 50vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(225,225,225,0), rgba(225,225,225,0.95), rgba(225,225,225,1));
+}
+.main-section-content-column-header{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.main-section-content-column-image-container{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.main-section-content-column-image{
+  width: 100%;
+}
+.main-section-content-column-caption{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.main-section-content-column-link{
+  position: absolute;
+  font-size: 12px;
+  left: 20px;
+  bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of document */

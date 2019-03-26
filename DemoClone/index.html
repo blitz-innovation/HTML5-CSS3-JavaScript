@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AmazonClone</title>
+    <script type="text/javascript" src="./public/javascripts/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="./public/stylesheets/application.css">
+  </head>
+  <body>
+    <div class="header-image-container">
+      <image class="header-image" src="./images/header-image.jpg" />
+    </div>
+
+    <div class="header">
+      <div class="header-row-1">
+        <div class="header-row-left">
+          <div class="category-button"></div>
+          <image src="./images/header-icon.png" class="header-icon"/>
+        </div>
+
+        <div class="header-row-middle">
+          <div class="search-container">
+            <button class="search-dropdown-button"><span>All</span></button>
+            <div class="search-input-box">
+              <input class="search-input" type="text" name="" value="">
+            </div>
+            <div class="search-button">
+              <span style="font-size:10px;color:white;">Search</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-row-right">
+          <div class="header-row-right-image-container">
+            <image src="./images/header-image-right.jpg"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-row-2">
+
+        <div class="header-row-left">
+          <div style="margin-left:30px;display:inline-block;box-sizing:border-box;padding:5px;">
+            <div style="font-size:12px;color:white;"><span>Deliver to RAYMOND</span></div>
+            <div style="font-size:15px;font-weight:bold;color:white;"><span>New York 10032</span></div>
+          </div>
+        </div>
+        <div class="header-row-middle">
+
+          <div class="header-row-functions">
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Browsing History</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Raymond's Amazon.com</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Today's Deals</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Gift Cards</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Whole Foods</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Sell</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Registry</span></div>
+            <div class="header-row-function-item"><span class="header-row-function-item-text">Help</span></div>
+          </div>
+        </div>
+        <div class="header-row-right">
+          <div style="vertical-align:top;display:inline-block;box-sizing:border-box;padding:3px;margin-left:10px;margin-right:10px;border-right:1px solid grey;padding-right:10px;">
+            <div style="font-size:12px;color:white;"><span>&nbsp;</span></div>
+            <div><span style="font-size:15px;font-weight:bold;color:white;">EN</span></div>
+          </div>
+          <div style="vertical-align:top;display:inline-block;box-sizing:border-box;padding:3px;margin-left:5px;margin-right:10px;text-align:left;">
+            <div style="font-size:12px;color:#d4d4d4;"><span>Hello, Raymond</span></div>
+            <div><span style="font-size:15px;font-weight:bold;color:white;">Account & Lists</span></div>
+          </div>
+          <div style="vertical-align:top;display:inline-block;box-sizing:border-box;padding:3px;margin-left:10px;margin-right:10px;">
+            <div style="font-size:12px;color:white;"><span>&nbsp;</span></div>
+            <div><span style="font-size:15px;font-weight:bold;color:white;">Orders</span></div>
+          </div>
+          <div style="vertical-align:top;display:inline-block;box-sizing:border-box;padding:3px;margin-left:10px;margin-right:10px;">
+            <div style="font-size:12px;color:white;"><span>&nbsp;</span></div>
+            <div><span style="font-size:15px;font-weight:bold;color:white;">Prime</span></div>
+          </div>
+          <div style="vertical-align:top;display:inline-block;">
+            <image src="./images/cart-image.png"/>
+          </div>
+          <div style="display:inline-block;box-sizing:border-box;padding:3px;margin-right:10px;">
+            <div style="font-size:12px;color:white;"><span>&nbsp;</span></div>
+            <div><span style="font-size:15px;font-weight:bold;color:white;">Cart</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-section">
+
+      <div class="background-image-container-reference" style="position:relative;">
+        <div class="main-section-background-image-left-container">
+          <image class="main-section-background-image" src="./images/000.jpg"/>
+        </div>
+        <div class="main-section-background-image-container">
+          <image class="main-section-background-image" src="./images/001.jpg"/>
+        </div>
+        <div class="main-section-background-image-right-container">
+          <image class="main-section-background-image" src="./images/002.jpg"/>
+        </div>
+      </div>
+
+      <div style="position:absolute;left:30px;top:15vh;font-size:28px;font-weight:bold;color:white;"><span><</span></div>
+      <div style="position:absolute;left:25px;top:15vh;font-size:28px;font-weight:bold;color:black;"><span><</span></div>
+      <button id="slide-left-button" style="opacity:0;position:absolute;left:20px;top:10vh;height:80px;width:40px;"></button>
+
+      <div style="position:absolute;right:30px;top:15vh;font-size:28px;font-weight:bold;color:white;"><span>></span></div>
+      <div style="position:absolute;right:25px;top:15vh;font-size:28px;font-weight:bold;color:black;"><span>></span></div>
+      <button id="slide-right-button" style="opacity:0;position:absolute;right:20px;top:10vh;height:80px;width:40px;"></button>
+
+      <div class="main-section-background-blending-container">
+        <div class="main-section-background-blending"></div>
+      </div>
+
+      <div class="main-section-content">
+        <div class="main-section-content-inner-container">
+          <div class="main-section-content-column" style="text-align:left;">
+            <div style="display:inline-block;height:50px;width:50px;">
+              <image src="./images/avatar-icon.png"/>
+            </div>
+            <div style="display:inline-block;margin-left:25px;vertical-align:top;margin-top:7px;">
+              <div style="font-size:20px;font-weight:bold;"><span>Hi Raymond</span></div>
+              <div style="font-size:12px;margin-top:3px;"><span>Customer since 2018</span></div>
+            </div>
+            <div style="margin-top:10px;font-weight:bold;font-size:12px;"><span>Recommendations for you</span></div>
+            <div style="margin-top:10px;">
+              <image src="./images/grid.png" />
+            </div>
+          </div>
+          <div class="main-section-content-column">
+            <div class="main-section-content-column-header"><span>Recently Viewed</span></div>
+            <div class="main-section-content-column-image-container">
+              <image class="main-section-content-column-image" src="./images/ad1.jpg" />
+            </div>
+            <div class="main-section-content-column-caption">
+              <span>Web, Feb 06</span>
+            </div>
+            <div class="main-section-content-column-link">
+              <a href="#">Edit your browsing history</a>
+            </div>
+          </div>
+          <div class="main-section-content-column">
+            <div class="main-section-content-column-header"><span>Save $30</span></div>
+            <div class="main-section-content-column-image-container">
+              <image class="main-section-content-column-image" src="./images/ad2.jpg" />
+            </div>
+            <div class="main-section-content-column-caption">
+              <span>The new Kindle Paperwhite, now with Audible</span>
+            </div>
+            <div class="main-section-content-column-link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="main-section-content-column" style="background-color: transparent;padding:0px;">
+
+            <div style="height:35%;background-color:white;box-sizing:border-box;padding:20px;position:relative;">
+              <div class="main-section-content-column-header"><span>FREE Same-Day Delivery</span></div>
+              <div style="margin-top:10px;font-size:12px;text-align:left;"><span>Get delivery as fast as today on over a million items with qualifying orders over $35.</span></div>
+              <div class="main-section-content-column-link" style="bottom:20px;">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+            <div style="height:60%;margin-top:5%;background-color:white;text-align:center;">
+              <image src="./images/fin-ad.jpg" style="height:100%;display:inline-block;"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <script tyle="text/javascript" src="./public/javascripts/application.js"></script>
+  <script type="text/javascript">
+    var currentImageIdx = 1;
+
+    $("#slide-left-button").on("click", slideLeft);
+    $("#slide-right-button").on("click", slideRight);
+
+  </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end of document -->
