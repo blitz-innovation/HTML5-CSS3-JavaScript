@@ -139,35 +139,51 @@ News websites, for example, are very publicly accessible, therefore usually will
 
 **Examples of 'Good Deal' Websites**
 
-<img src="./Images/yahoo.png" alt="drawing" width="350vw" height="200vw"/>
-<span>&nbsp;</span>
-<img src="./Images/craigslist.png" alt="drawing" width="350vw" height="200vw"/>
+<img src="./Images/yahoo.png" alt="drawing"/>
 
-<img src="./Images/wsj.png" alt="drawing" width="350vw" height="200vw"/>
-<span>&nbsp;</span>
-<img src="./Images/fb.png" alt="drawing" width="350vw" height="200vw"/>
+(Yahoo)
 
-(From left to right, top to bottom: 1. Yahoo 2. Craigslist 3. Wall Street Journal 4. Facebook)
+<img src="./Images/craigslist.png" alt="drawing"/>
+
+(Craigslist)
+
+<img src="./Images/wsj.png" alt="drawing"/>
+
+(Wall Street Journal)
+
+<img src="./Images/fb.png" alt="drawing"/>
+
+(Facebook)
 
 **Examples of Things in Between**
 
-<img src="./Images/amz.png" alt="drawing" width="350vw" height="200vw"/>
-<span>&nbsp;</span>
-<img src="./Images/microsoft.png" alt="drawing" width="350vw" height="200vw"/>
+<img src="./Images/amz.png" alt="drawing"/>
 
-(From left to right: 1. Amazon 2. Microsoft)
+(Amazon)
+
+<img src="./Images/microsoft.png" alt="drawing"/>
+
+(Microsoft)
 
 **Examples of 'Accentuated' Websites**
 
-<img src="./Images/google.png" alt="drawing" width="350vw" height="200vw"/>
-<span>&nbsp;</span>
-<img src="./Images/airbnb.png" alt="drawing" width="350vw" height="200vw"/>
+<img src="./Images/airbnb.png" alt="drawing"/>
 
-<img src="./Images/uber.png" alt="drawing" width="350vw" height="200vw"/>
-<span>&nbsp;</span>
-<img src="./Images/appl.png" alt="drawing" width="350vw" height="200vw"/>
+(Airbnb)
 
-(From left to right, top to bottom: 1. Google 2. Airbnb 3. Uber 4. Apple)
+<img src="./Images/uber.png" alt="drawing"/>
+
+(Uber)
+
+<img src="./Images/google.png" alt="drawing"/>
+
+(Google)
+
+<img src="./Images/appl.png" alt="drawing"/>
+
+(Apple)
+
+
 
 As mentioned, design is not the focus of our current phase, but hopefully this design spectrum can shed some light on the *intention* behind interfaces when you see them. When you're ready, you may move forward to the next phase.
 
