@@ -1,5 +1,7 @@
 # HTML5-CSS3-JavaScript
 
+<img src="./phase2.png" alt="drawing" />
+
 Welcome to the front-end development module, where we learn to assemble web interfaces with HTML5, CSS3 and JS. These three languages, while traditionally used for web interface development, have also inspired other technologies and languages that adapt to mobile interface design (which Chadin uses).
 
 We'll divide the module into tasks, with introductory materials from external sources first. Then, some commonly applied techniques are introduced to address the frequent difficulties other developers encounter. Lastly, you'll complete a mock interface for a website of your choice (this project will go into your portfolio).
@@ -141,47 +143,47 @@ News websites, for example, are very publicly accessible, therefore usually will
 
 **Examples of 'Good Deal' Websites**
 
-<img src="./Images/yahoo.png" alt="drawing"/>
+<img src="./Images/yahoo.png" alt="drawing"  width="250vw"/>
 
 (Yahoo)
 
-<img src="./Images/craigslist.png" alt="drawing"/>
+<img src="./Images/craigslist.png" alt="drawing"  width="250vw"/>
 
 (Craigslist)
 
-<img src="./Images/wsj.png" alt="drawing"/>
+<img src="./Images/wsj.png" alt="drawing"  width="250vw"/>
 
 (Wall Street Journal)
 
-<img src="./Images/fb.png" alt="drawing"/>
+<img src="./Images/fb.png" alt="drawing"  width="250vw"/>
 
 (Facebook)
 
 **Examples of Things in Between**
 
-<img src="./Images/amz.png" alt="drawing"/>
+<img src="./Images/amz.png" alt="drawing"  width="250vw"/>
 
 (Amazon)
 
-<img src="./Images/microsoft.png" alt="drawing"/>
+<img src="./Images/microsoft.png" alt="drawing"  width="250vw"/>
 
 (Microsoft)
 
 **Examples of 'Accentuated' Websites**
 
-<img src="./Images/airbnb.png" alt="drawing"/>
+<img src="./Images/airbnb.png" alt="drawing"  width="250vw"/>
 
 (Airbnb)
 
-<img src="./Images/uber.png" alt="drawing"/>
+<img src="./Images/uber.png" alt="drawing"  width="250vw"/>
 
 (Uber)
 
-<img src="./Images/google.png" alt="drawing"/>
+<img src="./Images/google.png" alt="drawing"  width="250vw"/>
 
 (Google)
 
-<img src="./Images/appl.png" alt="drawing"/>
+<img src="./Images/appl.png" alt="drawing"  width="250vw"/>
 
 (Apple)
 
