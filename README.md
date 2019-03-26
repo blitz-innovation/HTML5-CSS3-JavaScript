@@ -4,7 +4,9 @@
 
 Welcome to the front-end development module, where we learn to assemble web interfaces with HTML5, CSS3 and JS. These three languages, while traditionally used for web interface development, have also inspired other technologies and languages that adapt to mobile interface design (which Chadin uses).
 
-We'll divide the module into tasks, with introductory materials from external sources first. Then, some commonly applied techniques are introduced to address the frequent difficulties other developers encounter. Lastly, you'll complete a mock interface for a website of your choice (this project will go into your portfolio).<space><space>
+We'll divide the module into tasks, with introductory materials from external sources first. Then, some commonly applied techniques are introduced to address the frequent difficulties other developers encounter. Lastly, you'll complete a mock interface for a website of your choice (this project will go into your portfolio).
+
+&nbsp;
 
 ### Before We Begin: What Makes a Good Interface?
 
@@ -14,7 +16,9 @@ In short, *it varies* depending on your need. Web interfaces present specific (a
 
 But in general, as long as an interface enables the users to perform intended tasks and delivers intended business value, it's considered *ok* in a developer sense.
 
-While design is not the major focus in this phase, we'll present in the end of this module a convenient classification rule that'll capture a great percentage of distinctions between interfaces. But for now, let's learn the technicals first.<space><space>
+While design is not the major focus in this phase, we'll present in the end of this module a convenient classification rule that'll capture a great percentage of distinctions between interfaces. But for now, let's learn the technicals first.
+
+&nbsp;
 
 ### Task 1: HTML5/CSS3
 
@@ -29,7 +33,9 @@ In web development, HTML is the bare building blocks to assemble the skeleton of
 
 [HTML Crash Course](https://www.youtube.com/watch?v=UB1O30fR-EE) and [CSS Crash Course](https://www.youtube.com/watch?v=yfoY53QXEnI)
 
-**Note on the CSS Video**: By the end, the video talks about adaptive UI for web and mobile devices. While traditional thoughts revolve around how to make one interface work with two versions of display, recent development has been more in favor of creating separate versions of UI for different displays.<space><space>
+**Note on the CSS Video**: By the end, the video talks about adaptive UI for web and mobile devices. While traditional thoughts revolve around how to make one interface work with two versions of display, recent development has been more in favor of creating separate versions of UI for different displays.
+
+&nbsp;
 
 ### Task 2: JavaScript
 
@@ -56,7 +62,9 @@ This is the first time we encounter what would be considered a "normal" programm
 
 [JS Basics: Event Handling 1](https://www.youtube.com/watch?v=e57ReoUn6kM)
 
-[JS Basics: Event Handling 2](https://www.youtube.com/watch?v=0tEW8rB1bbU)<space><space>
+[JS Basics: Event Handling 2](https://www.youtube.com/watch?v=0tEW8rB1bbU)
+
+&nbsp;
 
 ### Task 3: jQuery
 
@@ -82,7 +90,9 @@ Watch the below videos for the library and follow along to gain an understanding
 
 For now, follow along the video to see how information can be fetched *by code* instead by typing things into your browser's address bar and hit enter.
 
-[jQuery: Ajax](https://www.youtube.com/watch?v=eR3rcalj06Q)<space><space>
+[jQuery: Ajax](https://www.youtube.com/watch?v=eR3rcalj06Q)
+
+&nbsp;
 
 ### Task 4: Common Techniques
 
@@ -90,7 +100,9 @@ Over and over again, common difficulties appear throughout a developer's project
 
 First, watch a review of the [Two Most Important CSS Attributes](https://vimeo.com/325983692), which will help you understand the next two videos. Then, watch the demo of [Common Centering Techniques](https://vimeo.com/325983906) and [Common Hiding Techniques](https://vimeo.com/325984112).
 
-It's not mandatory, but highly recommended for you to try the examples yourself, as dev proficiency comes from practice. People who're not afraid of writing up code are usually the ones who get better the fastest. You can find the finished .html files from the videos in the 'Task4' folder.<space><space>
+It's not mandatory, but highly recommended for you to try the examples yourself, as dev proficiency comes from practice. People who're not afraid of writing up code are usually the ones who get better the fastest. You can find the finished .html files from the videos in the 'Task4' folder.
+
+&nbsp;
 
 ### Demo: Clone an Interface
 
@@ -112,7 +124,9 @@ It's ok to modify and adapt your strategy throughout the process, as it's unpred
 - [Actual Coding 3: Main Content](https://vimeo.com/318285713)
 - [Actual Coding 4: Carousal, JS](https://vimeo.com/318291267)
 
-You can find completed code for the demo in the 'DemoClone' folder.<space><space>
+You can find completed code for the demo in the 'DemoClone' folder.
+
+&nbsp;
 
 ### Project: Clone an Interface
 
@@ -120,7 +134,9 @@ Now it's your turn. This project is quite major and can be included in your prof
 
 **Optional Project:** Design a Front Page for Yourself
 
-Many artists and professionals have their very own home page. Now that you've learned how to make an interface, why not make a front page of your own to boost your web presence? We'll learn how to actually put your website on the web in the next phase.<space><space>
+Many artists and professionals have their very own home page. Now that you've learned how to make an interface, why not make a front page of your own to boost your web presence? We'll learn how to actually put your website on the web in the next phase.
+
+&nbsp;
 
 ### Before We Move On: A Useful Design Spectrum
 
@@ -128,6 +144,7 @@ A useful design rule to capture a *huge* percentage of interface variation (or m
 
 - **Good Deal**: Design characterized by presenting a large pack of features and information, with limited white space. This usually creates a stuffed perspective. This fuller and more crowded look conveys the message of "You can get many things here easily at a good value".
 - **Accentuated**: Design characterized by presenting a small amount of core features and spotlight information, with a large amount of white space. This usually creates a focused perspective. This cleaner and more breathy look conveys the message of "This *is* the shit you want".
+&nbsp;
 
 **Example of 'Good Deal' vs. 'Accentuated' design in plating**
 
@@ -137,7 +154,7 @@ A useful design rule to capture a *huge* percentage of interface variation (or m
 You might ask if 'Good Deal' is more associated with public taste and 'Accentuated' is more associated with exclusivity. The answer is yes, as you'll see in the following examples. But this doesn't mean 'Accentuated' is necessarily better as the end goal of design is always to serve the business purpose.
 
 News websites, for example, are very publicly accessible, therefore usually will have a stuffed interface to capture the taste of a larger demographics. Conversely, 'Accentuated' designs are more targeted toward a specific demographics, and have more room for 'storytelling' (as shown from the plating on the right).
-
+&nbsp;
 
 **Examples of 'Good Deal' Websites**
 
@@ -157,6 +174,8 @@ News websites, for example, are very publicly accessible, therefore usually will
 
 (Facebook)
 
+&nbsp;
+
 **Examples of Things in Between**
 
 <img src="./Images/amz.png" alt="drawing"  width="250vw"/>
@@ -166,6 +185,8 @@ News websites, for example, are very publicly accessible, therefore usually will
 <img src="./Images/microsoft.png" alt="drawing"  width="250vw"/>
 
 (Microsoft)
+
+&nbsp;
 
 **Examples of 'Accentuated' Websites**
 
@@ -187,7 +208,9 @@ News websites, for example, are very publicly accessible, therefore usually will
 
 
 
-As mentioned, design is not the focus of our current phase, but hopefully this design spectrum can shed some light on the *intention* behind interfaces when you see them. When you're ready, you may move forward to the next phase.<space><space>
+As mentioned, design is not the focus of our current phase, but hopefully this design spectrum can shed some light on the *intention* behind interfaces when you see them. When you're ready, you may move forward to the next phase.
+
+&nbsp;
 
 
 
