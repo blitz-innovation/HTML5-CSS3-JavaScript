@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h2>Centering Elements</h2>
+    <hr/>
+
+    <h3>1. Do Math (Margin on Child)</h3>
+    <div class="yellow-box">
+      <div style="margin-left:50px;margin-top:50px;" class="blue-box"></div>
+    </div>
+
+    <h3>2. Do Math (Padding on Parent)</h3>
+    <div style="padding-left:50px;padding-top:50px;box-sizing:border-box;" class="yellow-box">
+      <div class="blue-box"></div>
+    </div>
+
+    <h3>3. Margin: 0 auto;</h3>
+    <div style="padding-top:50px;box-sizing:border-box;" class="yellow-box">
+      <div style="display: block; margin: 0 auto;" class="blue-box"></div>
+    </div>
+
+    <h3>4. Text Align on Parent & Text Optionality of Choosing Vertical Alignment</h3>
+    <div style="line-height:200px;text-align:center;" class="yellow-box">
+      <div style="vertical-align:middle;" class="blue-box"></div>
+    </div>
+
+    <h3>5. Absolute Element & Transform</h3>
+    <div class="yellow-box">
+      <div style="position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);" class="blue-box"></div>
+    </div>
+
+    <div style="height:500px;"></div>
+  </body>
+
+  <style>
+    .yellow-box{
+      background-color: yellow;
+      position: relative;
+      height: 200px;
+      width: 200px;
+      display: block;
+    }
+    .blue-box{
+      background-color: blue;
+      height: 100px;
+      width: 100px;
+      display: inline-block;
+    }
+  </style>
+</html>

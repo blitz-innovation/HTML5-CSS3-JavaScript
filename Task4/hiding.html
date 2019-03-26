@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+
+    <h2>Hiding Elements</h2>
+    <hr/>
+
+    <h3>1.Display:none;</h3>
+    <div class="yellow-box">
+      <button style="display:none;" onClick="alert('Clicked');">Click Me</button>
+    </div>
+    <br/>
+
+    <h3>2.Opacity: 0;</h3>
+    <div class="yellow-box">
+      <button style="opacity:0;" onClick="alert('Clicked');">Click Me</button>
+    </div>
+    <br/>
+
+    <h3>3.Visibility: 'hidden';</h3>
+    <div class="yellow-box">
+      <button style="visibility:hidden;" onClick="alert('Clicked');">Click Me</button>
+      <span>Text</span>
+    </div>
+    <br/>
+
+    <h3>4. Move an absolute element out of view</h3>
+    <div class="yellow-box" style="overflow:hidden;">
+      <button style="position:absolute;left:-100px;top:20px;" onClick="alert('Clicked');">Click Me</button>
+    </div>
+    <br/>
+
+  </body>
+
+  <style>
+    .yellow-box{
+      position: relative;
+      height: 100px;
+      width: 100px;
+      background-color: yellow;
+    }
+  </style>
+</html>
